@@ -1,0 +1,49 @@
+#parent{
+    position: relative;
+    height: 100%;
+    width:100%;
+}
+#container{
+    position: absolute;
+    background-image: linear-gradient(to right,rgb(177, 174, 174),rgb(228, 226, 226));
+    border-radius: 0px;
+    border-width: 5;
+    height:100%;
+    width:330;
+    right:0;
+    top:0;
+}
+#renderer_div{
+    position:absolute;
+    height:100%;
+    width: 60%;
+    border-radius: 10px;
+    left:0px;
+    top:0px;
+}
+
+#angles_box{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    top:150px;
+    right:150px;
+}
+#positions_box{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right:150;
+    top:400;
+}
+.input{
+    margin-bottom: 5;
+}
+body{
+    background-color:grey;
+}
+.class{
+    width: 200;
+    border-style: solid;
+    border-color: black;
+}
