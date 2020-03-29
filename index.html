@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>three.js Robitic arm app</title>
+		<style>
+			/*App designed by Anouar laouichi with the help of Benaouda Abderrahim*/
+		</style>
+		<link rel="stylesheet" href="styles/styles.css">
+	</head>
+	<body>
+		<script type="text/javascript" src="includes/three.js"></script>
+		<script type="text/javascript" src="includes/TrackballControls.js"></script>
+		<script type="text/javascript" src="includes/OBJLoader.js"></script>
+		<script type="text/javascript" src="includes/MTLLoader.js"></script>
+	<div id="parent">
+		<div id= "container">
+        	<div id="angles_box">
+				<h2 class="title">Model Directe</h3>
+					<input class="input" type="text" placeholder="enter theta1..." id="theta1">
+					<input class="input" type="text" placeholder="enter theta2..." id="theta2">
+					<input class="input"  type="text" placeholder="enter theta3..." id="theta3">
+					<input class="input"  type="text" placeholder="enter theta4..." id="theta4">
+					<button class="input"  type="button" onclick="getInputValue1();">Go ro position</button>
+			</div>
+			<div id ="positions_box">
+				<h2 class="title">Model inverse</h2>
+					<input class="input" type="text" placeholder="enter x component" id="x_0">
+					<input class="input" type="text" placeholder="enter y component" id="y_0">
+					<input class="input" type="text" placeholder="enter z component" id="z_0">
+					<button class="input" type="button" onclick="getInputValue_position();">Go to position</button>
+				
+			</div>
+		</div>
+		</div>
+		<div id="renderer_div">
+			<script>/* the canvas will be appended here */</script>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
