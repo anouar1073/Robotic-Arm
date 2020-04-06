@@ -10,20 +10,18 @@
 	<body>
 		<script type="text/javascript" src="includes/three.js"></script>
 		<script type="text/javascript" src="includes/TrackballControls.js"></script>
-		<script type="text/javascript" src="includes/OBJLoader.js"></script>
-		<script type="text/javascript" src="includes/MTLLoader.js"></script>
 	<div id="parent">
 		<div id= "container">
         	<div id="angles_box">
-				<h2 class="title">Model Directe</h3>
+				<h2 class="title">Forward kinematics</h3>
 					<input class="input" type="text" placeholder="enter theta1..." id="theta1">
 					<input class="input" type="text" placeholder="enter theta2..." id="theta2">
 					<input class="input"  type="text" placeholder="enter theta3..." id="theta3">
 					<input class="input"  type="text" placeholder="enter theta4..." id="theta4">
-					<button class="input"  type="button" onclick="getInputValue1();">Go ro position</button>
+					<button class="input"  type="button" onclick="getInputValue1();">Go to position</button>
 			</div>
 			<div id ="positions_box">
-				<h2 class="title">Model inverse</h2>
+				<h2 class="title">Reverse kinematics</h2>
 					<input class="input" type="text" placeholder="enter x component" id="x_0">
 					<input class="input" type="text" placeholder="enter y component" id="y_0">
 					<input class="input" type="text" placeholder="enter z component" id="z_0">
