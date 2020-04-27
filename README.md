@@ -1,4 +1,6 @@
 # Robotic-Arm
+![](https://github.com/anouar1073/Robotic-Arm/blob/master/images/Capture.PNG)
+
 Minimal app that showcases the Direct and inverse kinematics models of a 3-Degrees-of-freedom articulated manipulator.
 ![illustration](https://user-images.githubusercontent.com/61466717/78609992-3df8ce00-7864-11ea-8eb3-d596d49dfd5b.png)
 ### Camera
